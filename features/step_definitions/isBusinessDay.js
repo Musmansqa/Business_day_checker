@@ -1,6 +1,6 @@
 const { Given, When, Then } = require('@cucumber/cucumber');
 const { expect } = require('chai');
-const businessDayCalculator = require('/Users/dev/Desktop/qa-challenge-application/lib/dates.js');
+const businessDayCalculator = require('../lib/dates.js');
 
 let result;
 
